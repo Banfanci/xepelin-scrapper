@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const cheerio = require("cheerio");
 const puppeteer = require("puppeteer");
 
-// function to get the raw data
+// function to get the raw data from the article
 const getRawData = (URL) => {
   return fetch(URL)
     .then((response) => response.text())
