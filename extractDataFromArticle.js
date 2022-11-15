@@ -43,7 +43,7 @@ const URL2 = "https://xepelin.com/";
 
 exports.getArticlesLinksFromCategory = async (sectionUrl) => {
   const browser = await puppeteer.launch({
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    args: ["--no-sandbox"],
   });
   const page = await browser.newPage();
   await page.goto(URL2 + sectionUrl);
