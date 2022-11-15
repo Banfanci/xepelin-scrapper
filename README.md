@@ -1,5 +1,10 @@
 # xepelin-scrapper
 
+## How to run
+ 
+ 1. yarn install
+ 2. yarn start
+
 ## Api y scrapper
 
 - curl -X POST http://127.0.0.1:3000/getArticlesOfCategory -d '{"category": "Emprendedores","webhook": "https://hooks.zapier.com/hooks/catch/11217441/bfemddr"}' -H 'Content-Type: application/json'
